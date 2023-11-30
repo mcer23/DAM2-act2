@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/play1"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="20dp"
+        android:foreground="@drawable/play"
+        app:layout_constraintBottom_toTopOf="@+id/play2"
+        app:layout_constraintEnd_toStartOf="@+id/rt_name1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/play4"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:foreground="@drawable/play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play3" />
+
+    <Button
+        android:id="@+id/play6"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:foreground="@drawable/play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play5" />
+
+    <Button
+        android:id="@+id/play3"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:foreground="@drawable/play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play2" />
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="25dp"
+        android:foreground="@drawable/play"
+        app:layout_constraintBottom_toTopOf="@+id/play3"
+        app:layout_constraintEnd_toStartOf="@+id/rt_name2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play1" />
+
+    <Button
+        android:id="@+id/play5"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:foreground="@drawable/play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descarga ringtones"
+        android:textColor="#385E9D"
+        android:textFontWeight="700"
+        android:textSize="12pt"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/rt_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="33dp"
+        android:text="Sony Ericson"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toEndOf="@+id/play1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/rt_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="55dp"
+        android:text="Iphone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toEndOf="@+id/play3"
+        app:layout_constraintTop_toBottomOf="@+id/rt_name2" />
+
+    <TextView
+        android:id="@+id/rt_name6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="53dp"
+        android:text="MB Vida"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toEndOf="@+id/play6"
+        app:layout_constraintTop_toBottomOf="@+id/rt_name5" />
+
+    <TextView
+        android:id="@+id/rt_name5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="45dp"
+        android:text="MB Tuberia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toEndOf="@+id/play5"
+        app:layout_constraintTop_toBottomOf="@+id/rt_name4" />
+
+    <TextView
+        android:id="@+id/rt_name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="MB Coin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toEndOf="@+id/play4"
+        app:layout_constraintTop_toBottomOf="@+id/rt_name3" />
+
+    <TextView
+        android:id="@+id/rt_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="54dp"
+        android:text="Nextel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toEndOf="@+id/play2"
+        app:layout_constraintTop_toBottomOf="@+id/rt_name1" />
+
+    <Button
+        android:id="@+id/download1"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:drawable/stat_sys_download"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/share1"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/share1"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="19dp"
+        android:background="@android:drawable/ic_menu_share"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:rippleColor="#3F51B5"
+        tools:layout_editor_absoluteX="240dp" />
+
+    <Button
+        android:id="@+id/share5"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="14dp"
+        android:background="@android:drawable/ic_menu_share"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/blue4"
+        app:layout_constraintTop_toBottomOf="@+id/share4"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/share4"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="14dp"
+        android:background="@android:drawable/ic_menu_share"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/blue3"
+        app:layout_constraintTop_toBottomOf="@+id/share3"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/share6"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="14dp"
+        android:background="@android:drawable/ic_menu_share"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/blue5"
+        app:layout_constraintTop_toBottomOf="@+id/share5"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/blue1"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="64dp"
+        android:foreground="@drawable/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <Button
+        android:id="@+id/blue2"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="59dp"
+        android:foreground="@drawable/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/blue3"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="59dp"
+        android:foreground="@drawable/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blue2" />
+
+    <Button
+        android:id="@+id/blue5"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="59dp"
+        android:foreground="@drawable/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blue4" />
+
+    <Button
+        android:id="@+id/blue6"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="56dp"
+        android:foreground="@drawable/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blue4" />
+
+    <Button
+        android:id="@+id/blue4"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="59dp"
+        android:foreground="@drawable/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blue3" />
+
+    <Button
+        android:id="@+id/share3"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="14dp"
+        android:background="@android:drawable/ic_menu_share"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/blue2"
+        app:layout_constraintTop_toBottomOf="@+id/share2"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/share2"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="14dp"
+        android:background="@android:drawable/ic_menu_share"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/blue1"
+        app:layout_constraintTop_toBottomOf="@+id/share1"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/download2"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:drawable/stat_sys_download"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/share2"
+        app:layout_constraintTop_toBottomOf="@+id/download1"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/download3"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:drawable/stat_sys_download"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/share3"
+        app:layout_constraintTop_toBottomOf="@+id/download2"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/download4"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:drawable/stat_sys_download"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/share4"
+        app:layout_constraintTop_toBottomOf="@+id/download3"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/download5"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:drawable/stat_sys_download"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/share5"
+        app:layout_constraintTop_toBottomOf="@+id/download4"
+        app:rippleColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/download6"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:drawable/stat_sys_download"
+        android:backgroundTint="#FF5722"
+        app:iconTint="#3F51B5"
+        app:layout_constraintEnd_toStartOf="@+id/share6"
+        app:layout_constraintTop_toBottomOf="@+id/download5"
+        app:rippleColor="#3F51B5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
